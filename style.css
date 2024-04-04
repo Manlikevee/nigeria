@@ -303,6 +303,34 @@ select, input{
     color: #f3f3f3;
     font-size: 15px;
 }
+input[type="text"], input[type="datetime-local"], input[type="password"], select {
+    box-shadow: none;
+-webkit-appearance: none; 
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.619);
+    border: 1px solid rgba(0, 0, 0, 0.619);
+    color: white;
+    outline-color: #000;
+    outline: none;
+    font-family: "Sanchez", serif;
+    color: #f3f3f3;
+    font-size: 15px;  
+}
+.input{
+    box-shadow: none;
+-webkit-appearance: none; 
+    width: 100%;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.619);
+    border: 1px solid rgba(0, 0, 0, 0.619);
+    color: white;
+    outline-color: #000;
+    outline: none;
+    font-family: "Sanchez", serif;
+    color: #f3f3f3;
+    font-size: 15px;  
+}
 
 input::-webkit-calendar-picker-indicator {
     color: white;
