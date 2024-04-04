@@ -16,3 +16,7 @@ function nav() {
         navdata.style.height = '0';
     }
 }
+
+function designedby(){
+    alert('Designed by Odah Victor +2347013753576')
+}
