@@ -315,7 +315,8 @@ input[type="text"], input[type="datetime-local"], input[type="password"], select
     outline: none;
     font-family: "Sanchez", serif;
     color: #f3f3f3;
-    font-size: 15px;  
+    font-size: 15px; 
+    -webkit-appearance: none; 
 }
 .input{
     box-shadow: none;
